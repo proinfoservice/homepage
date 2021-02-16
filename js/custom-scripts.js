@@ -39,22 +39,29 @@
       }
     });
 
-
     $('.navbar-brand').on("click", function (e) {
       $('.modal').modal('hide');
     });
 
-    // $('.modal').on("hidden.bs.modal", function (e) {
-    //   if($('.modal:visible').length) {
-    //     $('body').addClass('modal-open');
-    //   }
-    // }).on("show.bs.modal", function (e) {
-
-    //   $(this).find('.modal-dialog').addClass($(e.relatedTarget).data('pos'));
-      
-    //   if($('.modal:visible').length) {
-    //   }
-    // });
+    $('.projects-slide').slick({
+      infinite: true,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      autoplay: false,
+      autoplaySpeed: 3000,
+      arrows: true,
+      nextArrow:'<a class="carousel-control-next-icon nextArrow" aria-hidden="true"></a>',
+      prevArrow:'<a class="carousel-control-prev-icon prevArrow" aria-hidden="true"></a>',
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
 
     $(".nav").find(".active").removeClass("active");
     $('a[href="' + location.pathname + '"]').addClass("active");

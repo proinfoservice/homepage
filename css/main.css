@@ -260,6 +260,8 @@ hr {
   right: 45px; }
 .services .col-xl-4 {
   min-height: 292px; }
+.services a:hover {
+  color: #fff; }
 
 .vacancy-item:hover {
   cursor: pointer; }
@@ -309,6 +311,36 @@ hr {
   overflow: hidden;
   transition: height 0.35s ease; }
 
+.projects-slide {
+  padding: 0; }
+
+.projects.row .projects-slide .col-xl-4, .projects.row .projects-slide .col-xl-8, .projects.row .projects-slide .col-lg-4 {
+  padding: 0; }
+.projects.row .projects-slide p, .projects.row .projects-slide span {
+  padding: 0 50px; }
+.projects.row .projects-slide p {
+  margin: 20px 0; }
+
+.slick-slide img {
+  width: 100%; }
+
+.prevArrow, .nextArrow {
+  color: rgba(101, 15, 139, 0.3);
+  top: 8vw;
+  position: absolute;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
+
+.prevArrow {
+  left: 5px;
+  z-index: 1; }
+
+.nextArrow {
+  right: 5px; }
+
 @media (min-width: 768px) {
   .navbar + section:not(#company) {
     padding-top: 130px; } }
@@ -354,9 +386,6 @@ hr {
   .modal .modal-dialog {
     margin-top: 108px; }
 
-  .slick-slide img {
-    height: 197px; }
-
   #company {
     background-size: 100%; } }
 @media (max-width: 991px) {
@@ -373,17 +402,11 @@ hr {
     margin-top: 20px; }
 
   .page-footer {
-    padding: 20px 0 0; } }
-@media (max-width: 991px) {
+    padding: 20px 0 0; }
+
   .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
-    color: #808080; } }
-@media (max-width: 575px) {
-  #company {
-    padding-top: 0;
-    background-image: none; }
-    #company h1 {
-      padding-top: 5px; } }
-@media (max-width: 991px) {
+    color: #808080; }
+
   #map {
     height: 320px; }
 
@@ -397,9 +420,15 @@ hr {
   .col-12 {
     padding: 20px 30px; }
 
+  .projects.row .projects-slide p, .projects.row .projects-slide span {
+    padding: 0 30px; }
+
   .projects > div > a > img {
     margin: -30px -30px 20px;
-    width: calc(100% + 60px); } }
+    width: calc(100% + 60px); }
+
+  .prevArrow, .nextArrow {
+    top: 30%; } }
 @media (max-width: 767px) {
   body {
     padding-top: 100px; }
@@ -428,3 +457,9 @@ hr {
   .projects > div > a > img {
     margin: -30px -30px 15px;
     width: calc(100% + 60px); } }
+@media (max-width: 575px) {
+  #company {
+    padding-top: 0;
+    background-image: none; }
+    #company h1 {
+      padding-top: 5px; } }
