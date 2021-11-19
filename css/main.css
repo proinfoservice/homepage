@@ -138,6 +138,8 @@ hr {
   list-style: none;
   /* Remove HTML bullets */
   padding: 0; }
+  .projects .modal-body ul li ul {
+    padding: 0 0 0.5em 2em; }
   .projects .modal-body ul li::before {
     content: "•";
     /* Insert content that looks like bullets */
