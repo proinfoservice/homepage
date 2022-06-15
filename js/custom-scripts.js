@@ -43,25 +43,25 @@
       $('.modal').modal('hide');
     });
 
-    $('.projects-slide').slick({
-      infinite: true,
-      slidesToShow: 2,
-      slidesToScroll: 1,
-      autoplay: false,
-      autoplaySpeed: 3000,
-      arrows: true,
-      nextArrow:'<a class="carousel-control-next-icon nextArrow" aria-hidden="true"></a>',
-      prevArrow:'<a class="carousel-control-prev-icon prevArrow" aria-hidden="true"></a>',
-      responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
-    });
+    // $('.projects-slide').slick({
+    //   infinite: true,
+    //   slidesToShow: 2,
+    //   slidesToScroll: 1,
+    //   autoplay: false,
+    //   autoplaySpeed: 3000,
+    //   arrows: true,
+    //   nextArrow:'<a class="carousel-control-next-icon nextArrow" aria-hidden="true"></a>',
+    //   prevArrow:'<a class="carousel-control-prev-icon prevArrow" aria-hidden="true"></a>',
+    //   responsive: [
+    //     {
+    //       breakpoint: 768,
+    //       settings: {
+    //         slidesToShow: 1,
+    //         slidesToScroll: 1
+    //       }
+    //     }
+    //   ]
+    // });
 
     $(".nav").find(".active").removeClass("active");
     $('a[href="' + location.pathname + '"]').addClass("active");
