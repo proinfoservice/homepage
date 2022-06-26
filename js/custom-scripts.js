@@ -1,19 +1,19 @@
 ; (function () {
   $(document).ready(function () {
-    // AOS.init({offset: 0, once: true});
+    AOS.init({offset: 0, once: true});
 
-    $('a').click(function(event) {
+    // $('a').click(function(event) {
 
-      if ($(this).hasClass('nav-link') || $(this).hasClass('navbar-brand')) {
-        event.preventDefault();
-        var url = $(this).attr('href')
-        $("html, body").animate({
-          opacity: 0
-        }, 300, function() {
-          window.location.href = url;
-        })
-      }
-    })
+    //   if ($(this).hasClass('nav-link') || $(this).hasClass('navbar-brand')) {
+    //     event.preventDefault();
+    //     var url = $(this).attr('href')
+    //     $("html, body").animate({
+    //       opacity: 0
+    //     }, 300, function() {
+    //       window.location.href = url;
+    //     })
+    //   }
+    // })
 
     $(window).add(".modal").on("scroll", function () {
       var scroll = $(this).scrollTop();
