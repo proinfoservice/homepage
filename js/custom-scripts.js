@@ -1,6 +1,6 @@
 ; (function () {
   $(document).ready(function () {
-    AOS.init({offset: 0, once: true});
+    // AOS.init({offset: 0, once: true});
 
     $('a').click(function(event) {
 
