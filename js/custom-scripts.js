@@ -65,6 +65,6 @@
 
     $(".nav").find(".active").removeClass("active");
     $('a[href="' + location.pathname + '"]').addClass("active");
-
+    document.getElementById('copyright').innerHTML = '© ПроИнфоСервис 2009-' + new Date().getFullYear();
   });
 })();
