@@ -133,29 +133,22 @@ hr {
   border-bottom: none;
   padding: 40px 40px 25px; }
 
-.projects .modal-body ul {
+.projects .modal-body .item-img {
+  min-width: 90px;
+  margin-right: 20px;
+  text-align: center; }
+.projects .modal-body ul.advantages-items {
   list-style: none;
   /* Remove HTML bullets */
   padding: 0; }
-  .projects .modal-body ul .item-img {
-    min-width: 90px;
-    margin-right: 20px;
-    text-align: center; }
-  .projects .modal-body ul li ul {
+  .projects .modal-body ul.advantages-items li ul {
     padding: 0 0 0.5em 2em; }
-  .projects .modal-body ul li {
+  .projects .modal-body ul.advantages-items li {
     display: flex;
     align-items: center;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
     min-height: 130px; }
-    .projects .modal-body ul li.proj-client {
-      font-size: 16px;
-      min-height: 0;
-      margin-bottom: 55px;
-      max-width: 70%;
-      line-height: 20px;
-      margin-top: 27px; }
 .vacancy-items .modal-body ul {
   list-style: none;
   padding: 0;
@@ -462,6 +455,12 @@ hr {
   body {
     padding-top: 100px; }
 
+  .projects .modal h1 {
+    font-size: 28px; }
+
+  .projects .modal h2 {
+    font-size: 16px; }
+
   .navOpened .navbar {
     background-color: #fff; }
 
@@ -485,7 +484,10 @@ hr {
 
   .projects > div > a > img {
     margin: -30px -30px 15px;
-    width: calc(100% + 60px); } }
+    width: calc(100% + 60px); }
+
+  .projects .modal-body img {
+    max-width: 100%; } }
 @media (max-width: 575px) {
   #company {
     padding-top: 0;
