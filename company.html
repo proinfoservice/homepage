@@ -8,16 +8,15 @@
 
   <title>ПроИнфоСервис - Компания</title>
   <meta name="description" content="proinfoservice">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
 
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <!-- Bootstrap Core CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="/assets/fonts/stylesheet.css">
 
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/assets/dist/slick-1.8.1/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/dist/slick-1.8.1/slick-theme.css"/>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+
   <link rel="canonical" href="/company.html">
   <link rel="alternate" type="application/rss+xml" title="proinfoservice" href="/feed.xml">
   <!-- Yandex.Metrika counter -->
@@ -37,7 +36,6 @@
   </script>
   <noscript><div><img src="https://mc.yandex.ru/watch/102150333" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
   <!-- /Yandex.Metrika counter -->
-
 </head>
 
 
@@ -52,42 +50,24 @@
         </div>
       </div>
     </div>
-    <!-- ===========================
- NAVBAR START
- =========================== -->
-<nav class="navbar navbar-expand-md fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">
-      <img src="/img/logo.svg" class="logo d-inline-block align-top" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <svg width="30" height="19" viewBox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H30V3H0V0ZM0 8H30V11H0V8ZM20 16H0V19H20V16Z" fill="#808080"/>
-</svg>
+    <nav class="navbar navbar-expand-lg fixed-top">
+  <a class="navbar-brand" href="/">
+    <img src="/img/logo.svg" class="logo" alt="Логотип">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
 
-    </button> -->
-
-    <!-- <div class="collapse navbar-collapse" id="navbarContent"> -->
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <!-- <div class="nav-close text-right mb-5" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="true" aria-label="Toggle navigation"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12.1848 9.57786L2.6389 0.0319214L0.517578 2.15324L10.0635 11.6992L0.517578 21.2451L2.6389 23.3664L12.1848 13.8205L21.7308 23.3664L23.8521 21.2451L14.3062 11.6992L23.8521 2.15324L21.7308 0.0319214L12.1848 9.57786Z"/>
-</svg>
-</div> -->
-      <ul class="navbar-nav">
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav">
   <li class="nav-item">
     <a class="nav-link" href="/company.html" data-dismiss="modal" aria-label="Close">Компания</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="/activities.html" data-dismiss="modal" aria-label="Close">Деятельность</a>
   </li>
-  <!-- <li class="nav-item">
-    <a class="nav-link" href="/career.html" data-dismiss="modal" aria-label="Close">Карьера</a>
-  </li> -->
   <li class="nav-item">
     <a class="nav-link" href="/partners.html" data-dismiss="modal" aria-label="Close">Партнеры</a>
   </li>
@@ -95,71 +75,198 @@
     <a class="nav-link" href="/projects.html" data-dismiss="modal" aria-label="Close">Проекты</a>
   </li>
   <li class="nav-item">
+    <a class="nav-link" href="/career.html" data-dismiss="modal" aria-label="Close">Карьера</a>
+  </li>
+  <li class="nav-item">
     <a class="nav-link" href="/contacts.html" data-dismiss="modal" aria-label="Close">Контакты</a>
   </li>
 </ul>
-    </div><!--.nav-collapse -->
   </div>
-</nav><!--navbar end-->   
+</nav>
 
 
-    <section id="company-page">
-  <div class="container-fluid">
-    <div class="row pb-1">
-      <div class="col-xl-8 col-lg-8">
-        <h1 data-aos="fade-up">Компания «ПроИнфоСервис» — разработчик программного обеспечения. Ключевое направление деятельности — интеграция информационных систем. </h1>
-        <p>Мы помогаем нашим клиентам решать задачи их бизнеса с использованием современных технологий разработки.</p>
+    <section class="container-fluid">
+  <div class="row pl-sm-3 mb-4 mb-lg-5">
+    <div class="col-sm-6 col-lg-6 pr-5 pl-sm-0">
+      <h1>ИТ-компания «ПроИнфоСервис» — разработчик интеграционных решений</h1>
+    </div>
+    <div class="col-lg-5 col-sm-6 left-border pl-sm-3">
+      <p class="company-number">><span class="current-experience"></span></p>
+      <p>лет мы создаем интеграционные решения для различных предприятий и организаций</p>
+    </div>
+  </div>
+  <p class="pb-lg-3 h2">За это время:</p>
+  <div class="row pl-sm-3">
+    
+      <div class="col-md-3 col-sm-6 mb-3 left-border pl-sm-3">
+        <p class="company-number pb-lg-3 pb-2">150+</p>
+        <p>интегрировано информационных систем</p>
+      </div>
+    
+      <div class="col-md-3 col-sm-6 mb-3 left-border pl-sm-3">
+        <p class="company-number pb-lg-3 pb-2">200+</p>
+        <p>реализованных сервисов</p>
+      </div>
+    
+      <div class="col-md-3 col-sm-6 mb-3 left-border pl-sm-3">
+        <p class="company-number pb-lg-3 pb-2">400+</p>
+        <p>межведомственных запросов</p>
+      </div>
+    
+      <div class="col-md-3 col-sm-6 mb-3 left-border pl-sm-3">
+        <p class="company-number pb-lg-3 pb-2">200+</p>
+        <p>услуг переведено в электронный вид</p>
+      </div>
+    
+  </div>
+  <div class="blue-panel solutions-panel row justify-content-center">
+    <div class="col-xl-8 col-sm-10 col-12 py-lg-5 py-4 px-lg-4 px-3 text-center solutions-panel-box">
+      <img src="/img/icons/laurel-left.svg" alt="левая ветка" class="d-sm-block d-none">
+      <span>Решения ПроИнфоСервис внедрены на предприятиях, работающих в сфере энергетики, логистики, производства, а также в органах государственной власти</span>
+      <img src="/img/icons/laurel-right.svg" alt="правая ветка" class="d-sm-block d-none">
+    </div>
+  </div>
+  <div class="row align-items-center mb-4 mb-lg-5">
+    <div class="col-lg-8 col-md-6 col-12 px-3">
+      <h2>Мы провели интервью с представителями ключевых заказчиков и выяснили, за что нас ценят клиенты</h2>
+    </div>
+    <div class="col-lg-4 col-md-6 col-12 text-md-right">
+      <img src="/img/icons/person.svg" class="px-2">
+      <img src="/img/icons/fingers.svg" class="px-2">
+      <img src="/img/icons/text.svg" class="px-2">
+    </div>
+  </div>
+  <ul class="nav reviews-tabs flex-column flex-md-row justify-content-md-center mb-4" role="tablist">
+    
+      <li class="nav-item">
+        <a class="nav-link active" id="flex-tab" data-toggle="tab"
+          href="#flex" role="tab" aria-controls="flex"
+          aria-selected="true">
+          Гибкость и адаптивность
+        </a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-link " id="in_touch-tab" data-toggle="tab"
+          href="#in_touch" role="tab" aria-controls="in_touch"
+          aria-selected="false">
+          Мы всегда на связи
+        </a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-link " id="until_end-tab" data-toggle="tab"
+          href="#until_end" role="tab" aria-controls="until_end"
+          aria-selected="false">
+          Работаем до победного
+        </a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-link " id="professionalism-tab" data-toggle="tab"
+          href="#professionalism" role="tab" aria-controls="professionalism"
+          aria-selected="false">
+          Доброжелательное отношение и профессионализм
+        </a>
+      </li>
+    
+  </ul>
+
+  
+
+  <div class="row justify-content-center mb-3 mb-lg-5">
+    <div class="reviews-subtitle d-flex align-items-center justify-content-center text-center col-sm-8">
+      <span id="current-subtitle">Внимательно слушаем пожелания клиентов и готовы идти навстречу. Ищем оптимальные варианты решения и делаем всё возможное, чтобы сотрудничать с нами было удобно.</span>
+    </div>
+    <div class="col-11 col-lg-12 col-xl-10">
+      <div class="reviews-slider">
+        
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="flex" data-subtitle="Внимательно слушаем пожелания клиентов и готовы идти навстречу. Ищем оптимальные варианты решения и делаем всё возможное, чтобы сотрудничать с нами было удобно.">“Прислушиваются к актуальным потребностям заказчика, не вдаваясь сразу в юриспруденцию”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="flex" data-subtitle="Внимательно слушаем пожелания клиентов и готовы идти навстречу. Ищем оптимальные варианты решения и делаем всё возможное, чтобы сотрудничать с нами было удобно.">“Нравится готовность к правкам, готовность искать варианты решения”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="flex" data-subtitle="Внимательно слушаем пожелания клиентов и готовы идти навстречу. Ищем оптимальные варианты решения и делаем всё возможное, чтобы сотрудничать с нами было удобно.">“С вами всегда можно договориться”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="flex" data-subtitle="Внимательно слушаем пожелания клиентов и готовы идти навстречу. Ищем оптимальные варианты решения и делаем всё возможное, чтобы сотрудничать с нами было удобно.">“Компания гибко работает с требованиями заказчика. Все пожелания, которые возможно, исполнить, делают”</div>
+          
+        
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="in_touch" data-subtitle="У наших клиентов есть личные контакты сотрудников техподдержки и руководителей проектов. Быстро отвечаем на срочные вопросы, всегда на связи, готовы помочь и подсказать.">“Можно положиться, если срочный вопрос, нам всегда ответят”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="in_touch" data-subtitle="У наших клиентов есть личные контакты сотрудников техподдержки и руководителей проектов. Быстро отвечаем на срочные вопросы, всегда на связи, готовы помочь и подсказать.">“Вы всегда на связи, оперативно отвечаете”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="in_touch" data-subtitle="У наших клиентов есть личные контакты сотрудников техподдержки и руководителей проектов. Быстро отвечаем на срочные вопросы, всегда на связи, готовы помочь и подсказать.">“Терпеливые, всегда готовы выслушать”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="in_touch" data-subtitle="У наших клиентов есть личные контакты сотрудников техподдержки и руководителей проектов. Быстро отвечаем на срочные вопросы, всегда на связи, готовы помочь и подсказать.">“Проводите очные встречи”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="in_touch" data-subtitle="У наших клиентов есть личные контакты сотрудников техподдержки и руководителей проектов. Быстро отвечаем на срочные вопросы, всегда на связи, готовы помочь и подсказать.">“Оперативно реагируют, всегда можно прийти к консенсусу”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="in_touch" data-subtitle="У наших клиентов есть личные контакты сотрудников техподдержки и руководителей проектов. Быстро отвечаем на срочные вопросы, всегда на связи, готовы помочь и подсказать.">“Ценим оперативность, качество помощи и консультаций”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="in_touch" data-subtitle="У наших клиентов есть личные контакты сотрудников техподдержки и руководителей проектов. Быстро отвечаем на срочные вопросы, всегда на связи, готовы помочь и подсказать.">“Очные приёмки и наглядные презентации с результатами работы”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="in_touch" data-subtitle="У наших клиентов есть личные контакты сотрудников техподдержки и руководителей проектов. Быстро отвечаем на срочные вопросы, всегда на связи, готовы помочь и подсказать.">“Всегда есть личный контакт”</div>
+          
+        
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="until_end" data-subtitle="Проблемы клиента решаем до полного их устранения.">“Проблему решают до последнего”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="until_end" data-subtitle="Проблемы клиента решаем до полного их устранения.">“Довольны, все поставленные задачи выполнены”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="until_end" data-subtitle="Проблемы клиента решаем до полного их устранения.">“Хорошая отдача по предоставлению документации”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="until_end" data-subtitle="Проблемы клиента решаем до полного их устранения.">“Отвечают на вопросы и помогают, даже если срок контракта уже закончился”</div>
+          
+        
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="professionalism" data-subtitle="Для нас важны долгосрочные и доверительные отношения с клиентами.">“Терпеливо и доступно объясняете сложные технические моменты”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="professionalism" data-subtitle="Для нас важны долгосрочные и доверительные отношения с клиентами.">“Ваша команда глубоко вовлекается в проект”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="professionalism" data-subtitle="Для нас важны долгосрочные и доверительные отношения с клиентами.">“Нравится отзывчивость и настрой коллег на поиск оптимального решения”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="professionalism" data-subtitle="Для нас важны долгосрочные и доверительные отношения с клиентами.">“Замечательные рабочие отношения”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="professionalism" data-subtitle="Для нас важны долгосрочные и доверительные отношения с клиентами.">“Долгосрочное, доверительное отношение”</div>
+          
+            <div class="review-card blue-panel text-center mb-3" data-tab="professionalism" data-subtitle="Для нас важны долгосрочные и доверительные отношения с клиентами.">“Ликбез по законодательству. Разъясняют, как изменения в законодательстве повлияют на бизнес-процесс и что необходимо изменить в первую очередь”</div>
+          
+        
       </div>
     </div>
-    <div class="row pt-4 color-blocks">
-      <div class="bg-blue col-xl-4 col-lg-4 col-md-6">
-        <div data-aos="fade-up"></div>
-        <h1 data-aos="fade-up-left">Наша задача</h1>
-        <p>Рационально использовать весь потенциал имеющихся данных и информационных систем для достижения целей и ключевых показателей заказчика.</p>
+  </div>
+  <div class="mb-4 pt-1">
+    <h2>Мы гордимся высоким уровнем доверия наших клиентов!</h2>
+  </div>
+  <div class="row pl-3 pr-3 pr-md-0">
+    
+      <div class="col-12 col-md-3 border border-dark rounded px-3">
+        <a href=documents/gratitude-letters/gratitude-perm-administration.pdf target="_blank" class="text-body">
+          <p class="mt-3 mb-4">Благодарственное письмо от Администрации г.Перми</p>
+          <div class="d-flex justify-content-between mb-3 pt-4">
+            <span>.pdf</span>
+            <span>↗</span>
+          </div>
+        </a>
       </div>
-      <div class="bg-light-blue col-xl-4 col-lg-4 col-md-6">
-        <div data-aos="fade-in"></div>
-        <h1 data-aos="fade-up">Решения</h1>
-        <p>Мы создаем программные решения на основе лучших практик разработки, учитывая при этом индивидуальные особенности бизнеса заказчика.</p>
-      </div>
-      <div class="bg-dark-blue col-xl-4 col-lg-4 col-md-6">
-        <div data-aos="fade-in"></div>
-        <h1 data-aos="fade-up-right">Опыт</h1>
-        <p>Мы работаем на рынке с 2009 года, постоянно накапливая опыт и совершенствуя подходы и методы создания информационных систем.</p>
-      </div>
-      <div class="bg-dark-blue col-xl-4 col-lg-4 col-md-6 order-lg-0 order-md-2 order-1">
-        <div data-aos="fade-in"></div>
-        <h1 data-aos="fade-down">Команда</h1>
-        <p>Ключевой ресурс компании – сплоченная и профессиональная команда, состоящая из талантливых разработчиков, вдумчивых аналитиков, опытных руководителей проектов и заботливых специалистов технической поддержки.</p>
-      </div>
-      <div class="bg-blue col-xl-4 col-lg-4 col-md-6 order-0">
-        <div data-aos="fade-in"></div>
-        <h1>Залог успеха</h1>
-        <p>Залог стабильности и успеха компании – постоянное развитие и адаптация к меняющимся потребностям клиентов и вызовам ИТ-рынка.</p>
-      </div>
-      <div class="col-xl-4 col-lg-4 col-md-6 order-1">
-        <div data-aos="fade-in"></div>
-        <h1>Давайте знакомиться!</h1>
-        <p>Напишите нам, давайте познакомимся поближе.</p>
-        <a class="btn btn-primary" href="mailto:info@proinfoservice.ru">Написать</a>
-      </div>
-    </div>
+    
   </div>
 </section>
 
     <!-- Footer -->
-<footer class="page-footer font-small blue">
+<footer class="page-footer">
   <hr>
   <div class="container-fluid">
-    <div class="row">
+    <div class="row pt-3">
       <div class="col-lg-4 col-md-4 col-sm-6">
-          <div><span id="copyright">© ПроИнфоСервис 2009-2025</span></div>
+          <div><span id="copyright">© ПроИнфоСервис 2009-<span id="current-year"></span></div>
       </div>
       <!-- <div class="col-lg-4 col-md-4 col-sm-6">
         +7 (342) 238 52 00<br>
         +7 (342) 238 52 01
       </div> -->
-      <div class="col-lg-4 col-md-4 col-sm-6">
+      <div class="col-lg-4 col-md-4 col-sm-6 ml-auto text-md-right">
         614002, Россия, Пермь<br>
         ш.Космонавтов, д.111, к.27, оф.219а
       </div>
@@ -167,23 +274,20 @@
   </div>
 </footer>
 
-     <!-- jQuery Version 1.11.0 -->
-    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/assets/dist/jquery-3.3.1.min.js"></script>
+<script src="/assets/dist/bootstrap-4.3.1/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/assets/dist/slick-1.8.1/slick.min.js" ></script>
+<script src="/assets/js/custom-scripts.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  
+    <script src="/assets/dist/slick-1.8.1/slick.min.js"></script>
+  
+    <script src="/assets/js/company.js"></script>
+  
 
-    <!-- Plugin JavaScript -->
-    <script src="/js/custom-scripts.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/goodshare.js@4/goodshare.min.js"></script>
 
-    
 
   </body>
 </html>

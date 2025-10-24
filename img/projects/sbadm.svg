@@ -1,44 +1,5 @@
-<svg width="480" height="248" viewBox="0 0 480 248" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="480" height="248" fill="#ECECEC"/>
-<g filter="url(#filter0_d_1520_949)">
-<path d="M119.388 61.6354C119.388 58.0271 122.313 55.1021 125.921 55.1021H354.691C358.299 55.1021 361.224 58.0271 361.224 61.6354V186.324C361.224 189.932 358.299 192.857 354.691 192.857H125.921C122.313 192.857 119.388 189.932 119.388 186.324V61.6354Z" fill="white"/>
-</g>
-<rect width="30" height="16.5306" rx="3.26667" transform="matrix(1 0 0 -1 132.857 77.7549)" fill="#CECECE"/>
-<rect width="30" height="1.83673" rx="0.918367" transform="matrix(1 0 0 -1 169.592 67.3472)" fill="#CECECE"/>
-<rect width="30" height="1.83673" rx="0.918367" transform="matrix(1 0 0 -1 204.49 67.3472)" fill="#CECECE"/>
-<rect width="30" height="1.83673" rx="0.918367" transform="matrix(1 0 0 -1 239.388 67.3472)" fill="#CECECE"/>
-<rect width="30" height="1.83673" rx="0.918367" transform="matrix(1 0 0 -1 274.286 67.3472)" fill="#CECECE"/>
-<rect x="125.51" y="71.0205" width="228.98" height="115.102" rx="3.26667" fill="#EFEFEF"/>
-<rect x="328.163" y="43.4692" width="59.3878" height="52.0408" rx="3.26667" fill="#FFCFB7"/>
-<rect x="102.245" y="102.245" width="27.551" height="23.8776" rx="3.26667" fill="#DFB7FF"/>
-<rect x="102.245" y="129.796" width="27.551" height="23.8776" rx="3.26667" fill="#CECECE"/>
-<rect x="344.082" y="67.7788" width="27.551" height="14.453" rx="3.26667" fill="white"/>
-<rect x="344.082" y="56.939" width="4.51656" height="14.453" rx="2.25828" fill="white"/>
-<rect x="352.211" y="56.939" width="4.51656" height="14.453" rx="2.25828" fill="white"/>
-<rect x="140.704" y="92.9492" width="128.184" height="32.6735" rx="2.76667" stroke="#CECECE"/>
-<path d="M141.429 102.857L268.163 102.857" stroke="#FFC4A6" stroke-linecap="round"/>
-<rect x="140.704" y="140.092" width="128.184" height="32.6735" rx="2.76667" stroke="#CECECE"/>
-<path d="M141.123 172.041L147.245 160.714L158.878 168.673L189.796 143.877L199.286 158.877L202.653 151.837L208.163 155.204L210.306 151.837L223.163 145.408L234.184 150V158.877L249.49 163.163L263.878 158.877L268.163 165.306" stroke="#FFC4A6" stroke-linecap="round"/>
-<path d="M140.816 172.347L154.286 159.796L166.531 168.061H230.816L246.735 147.857H268.163" stroke="#E0B7FF" stroke-linecap="round"/>
-<path d="M268.163 172.347H244.592L225 158.878L213.061 163.163L200.51 172.347H187.347L170.816 146.021H140.816" stroke="#CECECE" stroke-linecap="round"/>
-<rect width="30" height="1.83673" rx="0.918367" transform="matrix(1 0 0 -1 278.571 104.082)" fill="#CECECE"/>
-<rect width="30" height="1.83673" rx="0.918367" transform="matrix(1 0 0 -1 278.571 110.204)" fill="#CECECE"/>
-<rect width="30" height="1.83673" rx="0.918367" transform="matrix(1 0 0 -1 278.571 116.327)" fill="#CECECE"/>
-<rect width="30" height="1.83673" rx="0.918367" transform="matrix(1 0 0 -1 278.571 151.225)" fill="#CECECE"/>
-<rect width="30" height="1.83673" rx="0.918367" transform="matrix(1 0 0 -1 278.571 157.347)" fill="#CECECE"/>
-<rect width="30" height="1.83673" rx="0.918367" transform="matrix(1 0 0 -1 278.571 163.469)" fill="#CECECE"/>
-<rect width="87.551" height="1.83673" rx="0.918367" transform="matrix(1 0 0 -1 140.816 85.7144)" fill="#CECECE"/>
-<rect width="87.551" height="1.83673" rx="0.918367" transform="matrix(1 0 0 -1 140.816 81.4287)" fill="#CECECE"/>
-<defs>
-<filter id="filter0_d_1520_949" x="106.321" y="45.3021" width="267.97" height="163.888" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="3.26667"/>
-<feGaussianBlur stdDeviation="6.53333"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1520_949"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1520_949" result="shape"/>
-</filter>
-</defs>
+<svg width="43" height="41" viewBox="0 0 43 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1V41" stroke="#1F2147" stroke-width="2" stroke-linejoin="round"/>
+<path d="M27.6667 1H1V24.0303H27.6667V1Z" stroke="#1F2147" stroke-width="2" stroke-linejoin="round"/>
+<path d="M27.628 5.76654H41.696L34.4295 16.8992L41.696 28.2044H17.325V23.3423" stroke="#1F2147" stroke-width="2" stroke-linejoin="round"/>
 </svg>
